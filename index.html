@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/58b2a71ee2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="topnav">
+		<a class="active" href="index.html">Movies</a>
+		<a href="#trending">Trending</a>
+		<a href="#upcoming">Upcoming</a>
+		<a href="#top">Top-trending</a>
+		<div class="search-container">
+			<form>
+				<input type="search" placeholder="Search Movie.." name="search">
+			</form>
+		</div>
+	</div>
+	<!--search movie result-->
+	<div id="searchDiv">
+	</div>
+
+	<!--trending movies-->
+	<h1 id="trending">Trending Movies</h1>
+	<div id="list">
+	</div>
+
+	<!--upcoming movies-->
+	<h1 id="upcoming">Upcoming Movies</h1>
+	<div id="upcoming-container">
+	</div>
+
+	<!--Top trending movies-->
+	<h1 id="top">Top-trending Movies</h1>
+	<div id="top-trending">
+	</div>
+
+	<footer>
+		This is made with ~~ by Afsana Mammadova
+	</footer>
+    <script src="./index.js"></script>
+</body>
+</html>
